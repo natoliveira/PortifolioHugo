@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- Incluindo Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilo personalizado -->
+    <style>
+        body {
+            padding-top: 50px;
+        }
+
+        .navbar {
+            background-color: #800000;
+        }
+
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .jumbotron {
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .footer {
+            background-color: #800000;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1{
+            color:black;
+        }
+        p{
+            color:black;
+            text-align: justify;
+        }
+        #paragrafo{
+
+            text-align: center;
+
+        }
+        #paragrafo1{
+
+            text-align: center;
+        }
+        img{
+            
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Barra de Navegação -->
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Meu Portfólio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Página Inicial</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Página Inicial -->
+<div id="home" class="jumbotron">
+    <h1>Bem-vindo ao Meu Portfólio</h1>
+    <br><br>
+</div>
+
+<!-- Sobre -->
+<div id="about" class="section">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <br><br>
+        <img src="hugo.png" alt="foto da autora do portfólio">
+        <br><br><br>
+        <p>Mestrando em Ciência da Computação (2021-2023) e graduando em Bacharel Ciência da Computação pela Universidade Federal de Ouro Preto (último período). Pesquisador associado ao Laboratório de Processamento Digital de Imagens (LaPDI), sob orientação do Ph.D. Guillermo Chávez. Engenheiro de Software e desenvolvedor de modelos de Inteligência Artificial na VMI Security. Já participou de eventos com publicação de artigo como o CBIC, SBAI e IHC. Participou concorrendo do Apps.edu no CBIE concorrendo na categoria protótipo com seu aplicativo MusicPuzzle. Licenciado em Música com Ênfase em Saxofone e instrumentos de sopro pela Universidade Federal de Ouro Preto (UFOP), sob orientação do professor Dr. Bernardo Fabris. Durante o ano de 2014 foi aprovado pelo grupo COIMBRA para realizar intercâmbio em Ciudad Juárez - México, com ênfase no espanhol didático e música Licenciatura. Foi Bolsista da CAPES no Projeto de Estímulo à Iniciação Docente (PIBID-UFOP). Ministrou classes no Projeto de Extensão da PROEX-UFOP: "Iniciação Musical - Projeto de curso de iniciação musical na Banda (2013). Anteriormente vinculado à Universidade do Estado de Minas Gerais (UEMG), onde estudou desde musicalização infantil, participou como Saxofonista na Big Band Da UEMG. Também teve oportunidade de fazer parte do Quarteto de Saxofones. Durante alguns anos de sua infância participou da Orquestra de Flautas Doce da Filarmônica Afro Brasileira em São Paulo. Participou da Orquestra Jovem do Projeto Gurí em São Paulo.</p>
+    </div>
+</div>
+
+<!-- Contato -->
+<div id="contact" class="section">
+    <div class="container">
+        <h2>Contato</h2>
+        <p>Você pode entrar em contato pelo meu email: hugo_ziviani@hotmail.com</p>
+    </div>
+</div>
+
+<!-- Rodapé -->
+<footer class="footer">
+    <div class="container">
+        <p id = "paragrafo1">&copy; 2023 Meu Portfólio</p>
+    </div>
+</footer>
+
+<!-- Scripts do Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
